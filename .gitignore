@@ -20,9 +20,7 @@
 # production
 /build
 
-# Rollout footage is served from the OpenWAM/assets dataset on Hugging Face.
-# Keep only the lightweight poster frames in this repository.
-/public/videos/*.mp4
+# Anonymous demo videos are bundled with this site.
 
 # misc
 .DS_Store
