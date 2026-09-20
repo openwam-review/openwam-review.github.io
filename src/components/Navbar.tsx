@@ -4,7 +4,7 @@ import { asset } from "@/lib/asset";
 import { RESOURCE_LINKS } from "@/lib/resources";
 
 /* Anonymous code and local results navigation. */
-const NAV_ITEMS = [RESOURCE_LINKS.code].filter(
+const NAV_ITEMS = [RESOURCE_LINKS.code, RESOURCE_LINKS.models].filter(
   (link) => !("pending" in link && link.pending) && link.href,
 );
 

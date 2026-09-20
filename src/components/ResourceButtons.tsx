@@ -17,6 +17,9 @@ function GitHubIcon() {
 export const RESOURCE_BUTTONS = [{
   link: RESOURCE_LINKS.code, icon: <GitHubIcon />,
   bg: "#181717", bgHover: "#000000", text: "#ffffff",
+}, {
+  link: RESOURCE_LINKS.models, icon: <span aria-hidden="true">🤗</span>,
+  bg: "#FFD21E", bgHover: "#F5C400", text: "#181717",
 }];
 
 const PILL_BASE =

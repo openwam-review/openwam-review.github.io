@@ -1,7 +1,7 @@
 import { RESOURCE_LINKS } from "@/lib/resources";
 
 /* Pending links (no href yet) are omitted rather than rendered dead. */
-const FOOTER_LINKS = [RESOURCE_LINKS.code].filter((link) => link.href);
+const FOOTER_LINKS = [RESOURCE_LINKS.code, RESOURCE_LINKS.models].filter((link) => link.href);
 
 function TinyIcon() {
   return (
